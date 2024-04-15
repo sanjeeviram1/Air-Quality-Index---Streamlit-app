@@ -17,7 +17,7 @@ https://github.com/sjuhi/Air-Quality-Index---Streamlit-app/assets/37045294/6223a
 https://github.com/sjuhi/Air-Quality-Index---Streamlit-app/assets/37045294/ca1a74e3-ae6a-4213-ada2-b906510d7481
 
 
-You can try out the live demo of this application [here]([https://share.streamlit.io/sjuhi/air-quality-index---streamlit-app/main/app.py](https://air-quality-index---app-app-ud3vhuzenouwbolmqqntjv.streamlit.app/Air_Quality_Dashboard)).
+You can try out the live demo of this application [here](https://share.streamlit.io/sjuhi/air-quality-index---streamlit-app/main/app.py](https://air-quality-index---app-app-ud3vhuzenouwbolmqqntjv.streamlit.app/Air_Quality_Dashboard).
 
 ## Usage
 - Select a location on the map or enter coordinates to view the air quality information for that location.
