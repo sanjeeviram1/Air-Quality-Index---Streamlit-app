@@ -8,7 +8,7 @@ import pandas as pd
 st.title(""" 🏭 Know what the air's like in your city before you go out """)
 st.write(""" Get ahead of air pollution with our predictions for your city's Air Quality Index """)
 
-st.image('//Users/juhisingh/streamlit-app/air.jpeg', caption='Predict AQI', use_column_width=True)
+st.image('air.jpeg', caption='Predict AQI', use_column_width=True)
 
 def make_prediction(model, feature_set):
     y_predict = model.predict(feature_set)
