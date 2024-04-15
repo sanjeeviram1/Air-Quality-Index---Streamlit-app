@@ -45,7 +45,7 @@ if predict_button:
     user_df = pd.DataFrame([user_data])
 
     # Load the OneHotEncoder
-    ohe = pickle.load(open(r"/Users/juhisingh/streamlit-app/Models/OneHotEncoder_Featureset.pkl", "rb"))
+    ohe = pickle.load(open(r"Models/OneHotEncoder_Featureset.pkl", "rb"))
 
     # Transform the user data (assuming the first column is "State")
     try:
