@@ -16,7 +16,7 @@ def make_prediction(model, feature_set):
     return y_predict
 
 
-path = '/Users/juhisingh/streamlit-app'
+path = 'streamlit-app'
 
 mreg = pickle.load(open(os.path.join(path, "Models/Multiple Regression.pkl"), 'rb'))
 preg = pickle.load(open(os.path.join(path, "Models/pregression.pkl"), 'rb'))
