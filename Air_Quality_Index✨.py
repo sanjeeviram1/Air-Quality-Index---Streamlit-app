@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title=" Air Quality Index ✨ ")
 st.header('🌪️ AirWatch India ')
 
-st.image('/Users/juhisingh/streamlit-app/India-2023.png', caption='India AQI', use_column_width=True)
+st.image('India-2023.png', caption='India AQI', use_column_width=True)
 
 st.markdown(
     """
