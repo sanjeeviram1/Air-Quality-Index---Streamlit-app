@@ -1,6 +1,6 @@
 # Air Quality Index - Streamlit App
 
-This is a Streamlit web application for visualizing and analyzing air quality data. The application provides insights into air quality metrics such as AQI (Air Quality Index), PM2.5, PM10, CO, SO2, and NO2. Users can input their location or choose from pre-defined locations to view real-time air quality information.
+This is a Streamlit web application for visualizing and analyzing air quality data. The application provides insights into air quality metrics such as AQI (Air Quality Index), PM2.5, PM10, CO, SO2, and NO2. Users can input their location and PM 2.5 nd PM 10 Parameters  to view real-time air quality information.
 
 ## Features
 
