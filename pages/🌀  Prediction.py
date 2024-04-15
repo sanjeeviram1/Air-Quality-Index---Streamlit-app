@@ -19,11 +19,11 @@ def make_prediction(model, feature_set):
 #path = 'streamlit-app'
 
 mreg = pickle.load(open("Models/Multiple Regression.pkl", 'rb'))
-preg = pickle.load(open(os.path.join(path, "Models/pregression.pkl"), 'rb'))
-dec_tree = pickle.load(open(os.path.join(path, "Models/Decision tree.pkl"), 'rb'))
-rt_reg = pickle.load(open(os.path.join(path, "Models/RandomForest.pkl"), 'rb'))
-svr_reg = pickle.load(open(os.path.join(path, "Models/svrression.pkl"), 'rb'))
-poly_reg = pickle.load(open(os.path.join(path, "Models/ploy_reg.pkl"), "rb"))
+preg = pickle.load(open("Models/pregression.pkl", 'rb'))
+dec_tree = pickle.load(open("Models/Decision tree.pkl", 'rb'))
+rt_reg = pickle.load(open("Models/RandomForest.pkl", 'rb'))
+svr_reg = pickle.load(open("Models/svrression.pkl", 'rb'))
+poly_reg = pickle.load(open("Models/ploy_reg.pkl", "rb"))
 
 cities = ["Ahmedabad", "Mumbai", "Delhi", "Chennai", "Bangalore"]
 selected_city = st.selectbox("Select City:", cities)
