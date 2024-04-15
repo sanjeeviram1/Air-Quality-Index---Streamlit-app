@@ -18,7 +18,7 @@ def make_prediction(model, feature_set):
 
 #path = 'streamlit-app'
 
-mreg = pickle.load(open("Models/Multiple Regression.pkl"), 'rb'))
+mreg = pickle.load(open("Models/Multiple Regression.pkl"), 'rb')
 preg = pickle.load(open(os.path.join(path, "Models/pregression.pkl"), 'rb'))
 dec_tree = pickle.load(open(os.path.join(path, "Models/Decision tree.pkl"), 'rb'))
 rt_reg = pickle.load(open(os.path.join(path, "Models/RandomForest.pkl"), 'rb'))
