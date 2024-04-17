@@ -5,7 +5,6 @@ This is a Streamlit web application for visualizing and analyzing air quality da
 ## Features
 
 - Real-time air quality data visualization.
-- Interactive map interface for selecting locations.
 - Detailed information about different air quality metrics.
 - User-friendly interface powered by Streamlit.
 
@@ -19,10 +18,6 @@ https://github.com/sjuhi/Air-Quality-Index---Streamlit-app/assets/37045294/ca1a7
 
 You can try out the live demo of this application [here](https://air-quality-index---app-app-ud3vhuzenouwbolmqqntjv.streamlit.app/Air_Quality_Dashboard).
 
-## Usage
-- Select a location on the map or enter coordinates to view the air quality information for that location.
-- Explore different air quality metrics using the dropdown menu.
-- Use the sidebar to adjust settings such as time range and data source.
 
 ## Acknowledgments
 - Data from [kaggle](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india)
